@@ -261,17 +261,23 @@ Hideout From 1970.`)
 if(player1.isTouching(check6) && player.index === 1){
   game.textInfo(players[index - 1],`The owners office.
   There are documents
- and books in the back.`)
+ and books in the back.
+Also a gun thats been
+fired within the last few days`)
 }
 if(player2.isTouching(check6) && player.index === 2){
 game.textInfo(players[index - 1],`The owners office.
-There are documents
-and books in the back.`)
+  There are documents
+ and books in the back.
+Also a gun thats been
+fired within the last few days`)
 }
 if(player3.isTouching(check6) && player.index === 3){
 game.textInfo(players[index - 1],`The owners office.
-There are documents
-and books in the back.`)
+  There are documents
+ and books in the back.
+Also a gun thats been
+fired within the last few days`)
 }
 if(player1.isTouching(check8) && player.index === 1){
   mark8.y = -10000;
